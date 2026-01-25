@@ -1,0 +1,26 @@
+{
+  "name": "ts_exercices",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/from_Js_to_Ts.js",
+    "dev": "ts-node ./from_Js_to_Ts.ts",
+    "watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/lodash": "^4.17.23",
+    "@types/node": "^25.0.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "date-fns": "^4.1.0",
+    "lodash": "^4.17.21"
+  }
+}
