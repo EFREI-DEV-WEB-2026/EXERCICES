@@ -1,21 +1,33 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import "./App.css";
 
 export default function App() {
-  const [search, setSearch] = useState("");
-  const [searchCount, setSearchCount] = useState(0);
+  // 1. Déclarer l'état pour le texte de la note (ex: note)
+  // 2. Déclarer l'état pour l'heure de la sauvegarde (ex: lastSaved)
+
+  // --- VOTRE CODE ICI (useEffect) ---
+  // Objectif : 
+  // - Surveiller les changements de la note
+  // - Sauvegarder dans le localStorage sous la clé "autosave_note"
+  // - Mettre à jour l'heure de sauvegarde
+
+
 
   return (
-    <div>
-      <h1>Recherche</h1>
-
-      <input
-        type="text"
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-        placeholder="Tapez votre recherche"
+    <div className="container">
+      <h1>Notepad Auto-save</h1>
+      
+      <textarea
+        className="textarea"
+        placeholder="Tapez votre texte ici, il sera sauvegardé automatiquement..."
+        // 3. Lier l'état et l'événement de saisie ici
       />
 
-      <p>Nombre de recherches déclenchées : {searchCount}</p>
+      <div className="status">
+        <span className="status-icon">💾</span>
+        {/* 4. Afficher le message de sauvegarde dynamique ici */}
+        En attente de saisie...
+      </div>
     </div>
   );
 }
