@@ -64,10 +64,12 @@ N'oubliez de typer votre composant en créant un type spécial comme vu en cours
 7.1. Passez la fonction à TabButton depuis le composant App.tsx.
 
 7.2. Nous aimerions récupérer le nom du boutton cliqué pour l'afficher dans le composant App sous la forme d'une valeur dans le JSX : 
+```
 <section>
     <menu>...</menu>
     {selecteTab}
 </section>
+```
 
 Pour cela utiliser la hook d'état useState. Vous pouvez l'initialiser avec une string "empty".
 
