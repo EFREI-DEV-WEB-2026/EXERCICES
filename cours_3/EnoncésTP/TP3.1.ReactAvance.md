@@ -75,7 +75,7 @@ Ces syntaxes doivent produire des boutons intégrant une icône à gauche du tex
 
 ![home_add_buttons](./tp_images/home_add_buttons.png)
 
-#### **2.5. Le boutton doit supportter n'importe quelles props**
+#### **2.5. Le boutton doit supporter n'importe quelles props**
 
 ```jsx
 <p>
