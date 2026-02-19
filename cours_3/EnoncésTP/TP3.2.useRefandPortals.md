@@ -2,6 +2,8 @@
 
 ### **1.Accéder aux éléments du DOM grâce aux "refs"**
 
+Cet exercice est à réaliser dans le dossier "access-dom-el-with-refs".
+
 Vous disposez d’un extrait de code faisant partie d’une application plus large qui gère les téléchargements d’images par les utilisateurs.
 
 Étant donné que l’élément natif `<input type="file">` est difficile à styliser et ne correspond pas au style souhaité pour l’application, il est masqué via `display: none` dans le fichier **index.css** fourni.
@@ -11,6 +13,8 @@ Vous disposez d’un extrait de code faisant partie d’une application plus lar
 Pour y parvenir, vous devez utiliser la fonctionnalité **`ref` de React** afin d’obtenir une référence à l’élément `<input type="file">`, puis exécuter la méthode **`click()`** sur cet élément chaque fois que le bouton est cliqué.
 
 ### **2.Gestion d’autres valeurs avec les "refs"**
+
+Cet exercice est à réaliser dans le dossier "handling-other-val-with-refs".
 
 Vous travaillez sur une application **"Workout"** et votre tâche consiste à **démarrer et arrêter des minuteurs** lorsque les utilisateurs cliquent sur les boutons **"Start"** et **"Stop"** d’un exercice sélectionné.
 
@@ -31,6 +35,8 @@ Un extrait de code vous est fourni, affichant déjà des éléments d’exercice
 - Lorsqu’un minuteur expire, la même fonction que celle déclenchée par le bouton **"Stop"** doit être exécutée.
 
 ### **3.Transmission des "refs" (Forwarding Refs)**
+
+Cet exercice est à réaliser dans le dossier "forwarding-refs".
 
 Votre tâche consiste à finaliser un composant **Input** personnalisé, commencé par un collègue. Ce composant doit être **hautement configurable** et répondre aux exigences suivantes :
 
@@ -54,6 +60,8 @@ Pour cela :
 - Les valeurs lues doivent ensuite être **stockées dans l’objet `userData`**, qui existe déjà.
 
 ### **4. Exposition des APIs de composant**
+
+Cet exercice est à réaliser dans le dossier "exposing-components-apis".
 
 Vous travaillez sur une partie d’une application contenant un **formulaire** qui doit pouvoir être **réinitialisé depuis l’extérieur** de ce formulaire.
 
@@ -84,6 +92,8 @@ function SomeComponent() {
 Vous devrez donc ajouter un code similaire à l’exemple ci-dessus dans le composant **App**.
 
 ### **5.Travail avec les Portails (Portals)**
+
+Cet exercice est à réaliser dans le dossier "working-with-portals".
 
 Un collègue vous a demandé de finaliser le travail sur un composant **Toast** qu’il a commencé.
 
