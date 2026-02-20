@@ -18,7 +18,7 @@ Cela signifie qu’il doit pouvoir être utilisé comme suit :
 ```jsx
 <Input type="text" placeholder="Votre nom" />
 ```
-(comme on peut le voir dans le fichier **App.js** existant).
+(comme on peut le voir dans le fichier **App.tsx** existant).
 
 L'ui final devra ressembler à ça : 
 
