@@ -30,7 +30,7 @@ L'ui final devra ressembler à ça :
 
 Réalisez cet exercice dans le dossier flexible-components.
 
-Votre tâche consiste à concevoir un composant **Button** très réutilisable et personnalisable, pouvant être utilisé de toutes les manières suivantes (voir également le code dans le fichier **App.js**) :
+Votre tâche consiste à concevoir un composant **Button** très réutilisable et personnalisable, pouvant être utilisé de toutes les manières suivantes (voir également le code dans le fichier **App.tsx**) :
 
 #### **2.1. Mode "Filled" (par défaut)**
 ```jsx
@@ -112,7 +112,7 @@ Les boutons résultants du code jsx ci-dessus devront avoir cet aspect :
    - Si aucune prop **mode** n’est spécifiée, le mode **"filled"** doit être appliqué par défaut.
 
 ### Objectif
-Votre mission est de modifier le composant **Button** fourni dans le fichier **Button.js** pour qu’il prenne en charge tous ces modes et fonctionnalités, **sans créer de nouveaux composants**. Assurez-vous que le composant reste simple, flexible et réutilisable.
+Votre mission est de modifier le composant **Button** fourni dans le fichier **Button.tsx** pour qu’il prenne en charge tous ces modes et fonctionnalités, **sans créer de nouveaux composants**. Assurez-vous que le composant reste simple, flexible et réutilisable.
 
 ---
 
